@@ -1,0 +1,310 @@
+// // camelCase = tipo de escrita no código, sempre começar com letra minúscula
+// // variavél, nunca pode começar com número.
+
+// // ctrl + ; comenta à linha
+
+// // Tipos primitivos do javascript
+
+// // Existe dois Tipos: referência e valores.
+
+// // Exemplo de tipo primitivos de referência.
+
+// // console.log('Beleza')
+
+
+
+// // let nome = 'Everton'; //string literal
+// // let idade = 25; //number literal
+// // let estaAprovado = true; //boolean
+// // let sobrenome; //Undefined
+// // let corSelecionada =  null //Redefinir um valor
+
+// // Tipagem dinâmica 
+
+// // Objetos
+
+// // Dentro do objeto fica à classe, sempre havéra um chave na esquerda e valor.
+
+// let pessoa = { 
+//     nome: 'Everton',
+//     idade: 25,
+//     estaAprovado: true,
+//     sobrenome : 'Jackson'
+// };
+
+// console.log(pessoa);
+// Response
+
+
+// // Arrays 
+// // Conjunto de dados que podem ser acessado por um indice
+
+// // contagem sempre começa do "0" do indice
+
+// // // Exemplo do curso
+// // let familia = ['nome','idade','funçao','tempoServiço','cidade'];
+
+// // console.log(familia.length);
+
+// // Tarefa do curso
+
+// // Exemplo de variavél
+ 
+// let nome = 'Everton';
+// let idade = 22;
+// let funçao = 'analista'
+// let tempoServiço = 3;
+// let Cidade = 'Arujá';
+// let aprovado = true;
+
+// // Ex objeto
+
+// let cidadão = {
+//     nome: 'Everton',
+//     idade: 22,
+//     funçao: 'analista',
+//     Cidade: 'Arujá',
+//     tempoServiço: true
+// };
+
+// console.log(cidadão)
+
+// // Ex: array
+// let Serviço = ['nome','idade','funçao','tempoServiço','Cidade','aprovado'];
+
+// console.log(Serviço[1])
+
+
+// Funçao
+// Verbo + substantivo
+
+    
+// let corSite = 'Vermelho,'
+// let nomeSite = 'Everton'
+// function alteraCor(cor,tonalidade){
+//     corSite = cor + tonalidade;   
+// };
+
+// console.log(corSite);
+// alteraCor('amarelo', ' claro');
+// console.log(corSite);
+
+
+// Realizar uma tarefa, não deovolve nada
+
+// function dizerNome(){
+
+//     console.log('Everton');
+// }
+
+// dizerNome();
+
+//Realizar uma tarefa, que devolve um resultado
+
+// function  triplicarPorTrês(valor){
+
+//     return valor* 3;
+// }
+
+// console.log(triplicarPorTrês(5));
+
+// let resultado = triplicarPorTrês
+
+
+// Operadores lógiticos
+
+// Aritiméticos(matemáticos)
+// +,-,*,/,**
+
+// Atribuição
+// Comparação
+// Lógicos
+// Bitwise Bitwise é uma técnica que consiste, basicamente, em alterar a sequência de bits de uma variáve
+
+// 1 - Aritméticos
+
+// let bolsaFamilia = 200;
+
+// console.log(bolsaFamilia + bolsaFamilia);
+// console.log(bolsaFamilia - bolsaFamilia);
+// console.log(bolsaFamilia* 0.89);
+// console.log(bolsaFamilia ++);
+// console.log(bolsaFamilia --);
+// console.log(bolsaFamilia / 2);
+// console.log(bolsaFamilia ** 2);
+
+
+// 2- Atribuição
+
+// let valorGás = 100;
+
+// valorGás *= 0.89;
+
+// console.log(valorGás);
+
+// exemplo
+
+// let valorGás = 100;
+
+// valorGás *= valorGás;
+
+// console.log(valorGás);
+
+
+// Operadadores de igualdade
+// Igualdade estrita
+
+
+// console.log (1 == 1);
+// console.log ('1'== 1);
+// console.log ('1' === 1);
+
+
+// Operador ternário
+
+// o anúncio abaixo de 79 reais apaga taxa e acima não paga taxa.
+
+// let valor = 100
+// let tipo = valor >= 79 ?' Não paga taxa' : 'Paga taxa';
+
+// console.log(tipo);
+
+//Operador Lógico e (&&)
+//Retorna TRUE se os dois operandos forem true.
+
+// Operador Lógico ou (||)
+//Retorna true se um dos operandos forem true.
+
+//  console.log(true && true);
+
+// console.log (false && true);
+
+// let maiorDeIdade = false;
+// let possuiHabilitação = false;
+// let podeAplicar= maiorDeIdade || possuiHabilitação;
+
+// console.log ('pode aplicar',podeAplicar);
+
+// //Operador NOT (!)
+
+// let cadidadoRecusado = !podeAplicar;
+
+// console.log('não aplicar',cadidadoRecusado);
+
+// Comparativos não boleano
+
+// Falsy
+// underfined
+// null
+// 0
+// false
+// ''
+// NaN - not a number
+
+// Truthy
+// tudo que retorna um valor positivo
+
+
+// let corPesonalizada = '';
+// let corSelecionada = 'Preto';
+// let corPerfil = corPesonalizada || corSelecionada;
+
+// console.log(corPerfil);
+    
+
+// Trocando valores de variaveis
+
+
+let a = 'vermelho';
+let b =  'azul';
+let c = a;
+a = b;
+b = c;
+
+console.log(a);
+console.log(b);
+
+// Condicionais no javascript
+// If e else como usar
+
+// exemplo
+// se a hora estiver 06:00 até 12:00 : Bom dia !
+// se estiver entre 12:00 até 18:00 : Boa tarde !
+// Caso contrário : Boa noite !
+
+
+// let hora = 17;
+
+// if (hora> 6 && hora< 12){
+//     console.log('Bom dia');
+// }
+
+// else if (hora > 12 && hora < 18) {
+
+//     console.log('Boa tarde');
+// }
+
+// else {console.log("Boa noite");
+// }
+
+// switch case
+
+// let permissão; //comun,gerente,diretor
+// permissão = 'diretor'
+
+// switch (permissão)
+// {
+//     case 'comum':
+//     console.log('usuário comum');
+//     break;
+
+//     case 'gerente':
+//     console.log('usuário gerente');
+//     break;
+
+//     case 'diretor':
+//     console.log('usuário diretor');
+//     break;
+
+//     default:
+//         console.log('Usuário não reconhecido!');
+// }
+
+// Como fazer o  Laço For/Loop for
+
+//1.For
+//2.While
+//3.Do while
+//4.For..in
+//5.For..or
+
+
+// for(let i = 0; i<5; i++){
+
+//     console.log('estou aprendendo!',i);
+// }
+
+// PESQUISAR SOBRE O OPERADOR MODULUS
+
+// for(let i = 1; i<5; i++) {
+//     if(i % 2 !==0){
+//         console.log(i);
+//     }
+    
+// }
+
+//While loop
+// Enquanto for verdadeiro o código, executa o código
+
+// Do..while     
+
+// let i = 0;
+
+// do {
+//     console.log('digitando!',(i));
+//     i++
+    
+// } while (i < 10);
+
+
+

@@ -1,0 +1,21 @@
+{
+  "name": "put-pudim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "id1": "nodemon meliAnunciosSimples --inspect",
+    "id2": "nodemon meliAnunciosVariacao --inspect",
+    "id3": "nodemon meliConsultarCampanha --inspect",
+    "id4": "nodemon meliModalidadeEnvio --inspect",
+    "id5": "nodemon meliRemoverCampanha --inspect"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0",
+    "fs": "0.0.1-security",
+    "pretty-print-json": "^1.0.0"
+  }
+}
