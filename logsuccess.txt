@@ -6,7 +6,7 @@
 {"Ml":"MLB1400465993","seller_id":181764571,"PreçoDe":138.04,"PreçoPor":55.22,"status":"paused","sku":"ZN14143196","shippingMode":"me2","last_updated":"2021-09-29T18:23:06.058Z","percentual":59}
 {"Ml":"MLB1400465993","seller_id":181764571,"PreçoDe":138.04,"PreçoPor":55.22,"status":"paused","sku":"ZN14143197","shippingMode":"me2","last_updated":"2021-09-29T18:23:06.058Z","percentual":59}
 {"Ml":"MLB1950649170","seller_id":128019548,"PreçoDe":null,"PreçoPor":360.05,"status":"paused","sku":"7228322AI","last_updated":"2021-09-26T11:47:27.505Z","percentual":0}
-{"Ml":"MLB1504109254", "seller_id":181764571,"PreçoDe":null,"PreçoPor":478.13,"status":"paused","sku":"BR10126","last_updated":"2021-09-29T22:05:37.410Z","percentual":0}
+{"Ml":"MLB1504109254","seller_id":181764571,"PreçoDe":null,"PreçoPor":478.13,"status":"paused","sku":"BR10126","last_updated":"2021-09-29T22:05:37.410Z","percentual":0}
 {"Ml":"MLB1945795239","seller_id":128019548,"PreçoDe":null,"PreçoPor":166.97,"status":"paused","sku":"K01171","last_updated":"2021-09-26T04:38:03.071Z","percentual":0}
 {"Ml":"MLB1945292166","seller_id":128019548,"PreçoDe":null,"PreçoPor":492.63,"status":"paused","sku":"K01446","shippingMode":"me2","last_updated":"2021-09-26T04:17:56.342Z","percentual":0}
 {"Ml":"MLB1052555094","seller_id":128019548,"PreçoDe":75.64,"PreçoPor":29.66,"status":"paused","sku":"RPC0309","last_updated":"2021-09-04T01:24:17.612Z","percentual":60}
