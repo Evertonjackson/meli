@@ -1,4 +1,4 @@
-{"Ml":"MLB833469460","seller_id":181764571,"PreçoDe":3050.7,"PreçoPor":1525.35,"status":"paused","sku":"ZN5252047","last_updated":"2021-09-30T13:18:08.990Z","percentual":50}
+Pudinzinho{"Ml":"MLB833469460","seller_id":181764571,"PreçoDe":3050.7,"PreçoPor":1525.35,"status":"paused","sku":"ZN5252047","last_updated":"2021-09-30T13:18:08.990Z","percentual":50}
 {"Ml":"MLB1977066041","seller_id":181764571,"PreçoDe":null,"PreçoPor":73.57,"status":"paused","sku":"ZN222191","shippingMode":"me2","last_updated":"2021-09-29T22:40:32.899Z","percentual":0}
 {"Ml":"MLB1977066041","seller_id":181764571,"PreçoDe":null,"PreçoPor":73.57,"status":"paused","sku":"ZN222190","shippingMode":"me2","last_updated":"2021-09-29T22:40:32.899Z","percentual":0}
 {"Ml":"MLB1945693812","seller_id":128019548,"PreçoDe":null,"PreçoPor":274.56,"status":"paused","sku":"4311144RLDEM","shippingMode":"me2","last_updated":"2021-09-26T04:36:12.420Z","percentual":0}
@@ -13,7 +13,7 @@
 {"Ml":"MLB833469740","seller_id":181764571,"PreçoDe":null,"PreçoPor":84.55,"status":"paused","sku":"ZN1414261","shippingMode":"me2","last_updated":"2021-09-29T19:11:59.000Z","percentual":0}
 {"Ml":"MLB833469740","seller_id":181764571,"PreçoDe":null,"PreçoPor":84.55,"status":"paused","sku":"ZN1414260","shippingMode":"me2","last_updated":"2021-09-29T19:11:59.000Z","percentual":0}
 {"Ml":"MLB1945292166","seller_id":128019548,"PreçoDe":null,"PreçoPor":492.63,"status":"paused","sku":"K01446","shippingMode":"me2","last_updated":"2021-09-26T04:17:56.342Z","percentual":0}
-{"Ml":"MLB1977066041","seller_id":181764571,"PreçoDe":null,"PreçoPor":73.57,"status":"paused","sku":"ZN222191","shippingMode":"me2","last_updated":"2021-09-29T22:40:32.899Z","percentual":0}
+{"Ml":"MLB1977066041","seller_id"as:181764571,"PreçoDe":null,"PreçoPor":73.57,"status":"paused","sku":"ZN222191","shippingMode":"me2","last_updated":"2021-09-29T22:40:32.899Z","percentual":0}
 {"Ml":"MLB1977066041","seller_id":181764571,"PreçoDe":null,"PreçoPor":73.57,"status":"paused","sku":"ZN222190","shippingMode":"me2","last_updated":"2021-09-29T22:40:32.899Z","percentual":0}
 {"Ml":"MLB1077558356","seller_id":128019548,"PreçoDe":null,"PreçoPor":53.19,"status":"paused","sku":"ZN3434028","shippingMode":"me2","last_updated":"2021-09-26T03:00:21.643Z","percentual":0}
 {"Ml":"MLB1077558356","seller_id":128019548,"PreçoDe":null,"PreçoPor":53.19,"status":"paused","sku":"ZN3434029","shippingMode":"me2","last_updated":"2021-09-26T03:00:21.643Z","percentual":0}
